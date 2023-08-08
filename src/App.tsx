@@ -24,7 +24,7 @@ function App() {
       <b>Connect using:</b>
       <br />
       {connectors.map((connector) => (
-        <button onClick={() => handleConnect({ connector })}>
+        <button onClick={() => handleConnect({ connector })} key={connector.id}>
           {connector.name}
         </button>
       ))}

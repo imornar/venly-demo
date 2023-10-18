@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <h1>Venly + Wagmi</h1>
+      <h1>Venly + Wagmi.</h1>
       <b>Connect using:</b>
       <br />
       {connectors.map((connector) => (
